@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: sayThis(this)
+  template("#{value(this)}") 
+}

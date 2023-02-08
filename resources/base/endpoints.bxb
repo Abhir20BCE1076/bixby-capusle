@@ -1,0 +1,16 @@
+endpoints {
+  action-endpoints {
+    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+    action-endpoint (saySomething) {
+      accepted-inputs (whatUserSaid)
+      local-endpoint (saySomeThing.js)
+    }
+
+    // action-endpoint (saySomething) {
+    //   accepted-inputs (whatUserSaid)
+    //   remote-endpoint (http://localhost:8000/api/langTranslate/) {
+    //     method (POST)
+    //   }
+    // }
+  }
+}
